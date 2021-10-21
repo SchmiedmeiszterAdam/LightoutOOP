@@ -1,0 +1,19 @@
+main{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+article{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3,1fr);
+    background-color: khaki;
+}
+.lampa{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    background-color: green;
+}
